@@ -5,3 +5,5 @@ Stable roommate matching, also known as the "Stable Roommates Problem," is a cla
 This algorithm is a modification of the stable roommate matching algorithm for finding optimal pairs using n-dimensional arrays.
 
 I have used my algorithm to find optimal pairs between people selecting a variety of poetry preferences.
+
+To improve the accuracy of the algorithm make closely related options adjescent
