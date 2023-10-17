@@ -2,11 +2,10 @@ import csv
 import numpy as np
 import json
 
-options = {0: ['Friend', 'Partner', 'Parents', 'Pet', 'Myself'],
- 1: ['I like reading poems', 'I like listening to lyrical poems and ghazals', 'I attend recitals or open-mics or live performances', 'I enjoy watching videos'],
- 2: ['Radiant Red', 'Ocean Blue', 'Golden Yellow', 'Glossy Green'],
- 3: ['Couplet', 'Free Verse', 'Spoken Word', 'Ghazal'],
- 4: ['Melancholic', 'Reflective', 'Romantic', 'Cheerful']}
+options = {0: ['8-10', '10-12', '12-2', '2-4', '4-6'],
+ 1: ['6-8', '8-10', '10-12', '12-2'],
+ 2: ['rarely', 'occasionally', 'neutral', 'frequently','always'],
+ 3: ['extremely', 'generally', 'somewhat', 'not']}
 
 # link each name to a 5 dimensional array
 candidates = {}
