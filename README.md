@@ -1,4 +1,4 @@
-# Stable Matching
+# Optimal Matching
 
 Stable roommate matching is a classical problem in the field of combinatorial optimization and algorithmic game theory. The problem involves finding a stable and mutually satisfactory set of roommate assignments in a scenario where individuals have preferences for potential roommates.
 
