@@ -30,7 +30,7 @@ for i in candidates:
     
 print(distances)
 
-def irving(roommates_dict):
+def match(roommates_dict):
     person_list = list(roommates_dict.keys())
     n = len(person_list)
 
@@ -73,7 +73,7 @@ def irving(roommates_dict):
 
     return stable_matching
 
-matching = irving(distances)
+matching = match(distances)
 
 print(matching)
 rel = 'matches/'
