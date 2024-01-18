@@ -1,4 +1,4 @@
-# PreferenceMatcher
+# Preference-Matcher
 
 ## Overview
 
