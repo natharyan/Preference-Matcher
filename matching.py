@@ -40,7 +40,7 @@ def match(roommates_dict):
     roommates = [[person_list.index(neighbor) for neighbor in roommates_dict[person]] for person in person_list]
 
     proposals = [-1] * n  # Keeps track of the proposals each person has made
-    rank = {}  # Keeps track of the rank of each roommate for each person
+    rank = {}  # Keeps track of the rank of each person for the current chooser
 
     for i in range(n):
         rank[i] = get_rankings(roommates[i])
