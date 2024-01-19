@@ -24,7 +24,8 @@ To achieve accurate matching, it is crucial to organize the form options for eve
 
 1. Clone the repository to your local machine.
 2. Ensure that your Google Form options are arranged in a sequential order of preference for accurate matching.
-3. Run the algorithm, providing the necessary input data.
+3. Export the response excel sheet.
+4. Run the algorithm, providing the necessary input data.
 
 ## Contributing
 
